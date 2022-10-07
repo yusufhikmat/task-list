@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    justify-content: center;
+    background-color: #f1f5f8;
+}
+.container{
+width: 500px;
+}
+.task-form{
+    padding:30px 0px;
+}
+#task{
+    padding:7px;
+    font-size: 20px;
+}
+#btn-add{
+    background-color: aqua;
+}
+#btn-clear{
+    background-color: black;
+    color:white;
+}
+.list-item{
+    border:1px solid black;
+    padding:7px;
+    font-size: 20px;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
